@@ -17,7 +17,7 @@ def create_database():
             print("Database 'alx_book_store' created successfully!")
 
     except Error as e:
-        print(f"Error connecting to MySQL: {e}")
+        print(f"except {e}")
 
     finally:
         if 'cursor' in locals():
